@@ -1,0 +1,55 @@
+/* src/components/RecordManager.css */
+
+.record-manager-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  font-family: 'Arial, sans-serif';
+}
+
+.record-manager-header {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.record-input-container {
+  margin-bottom: 15px;
+}
+
+.record-input {
+  width: 70%;
+  padding: 8px;
+}
+
+.record-button {
+  margin-left: 10px;
+  padding: 8px;
+}
+
+.record-list {
+  list-style: none;
+  padding: 0;
+}
+
+.record-item {
+  display: flex; /* Use flexbox to align items */
+  justify-content: space-between; /* Space items evenly */
+  align-items: center; /* Center items vertically */
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px 0;
+}
+
+.record-text {
+  margin-right: 10px;
+  flex-grow: 1; /* Allow text to take up available space */
+}
+
+.record-action-buttons {
+  display: flex;
+}
+
+.record-action-button {
+  margin-left: 5px;
+  padding: 5px;
+}
